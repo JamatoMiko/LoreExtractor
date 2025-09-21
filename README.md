@@ -1,3 +1,5 @@
+jamatomiko.github.io/LoreExtractor
+
 # How to Use
 1. Copy the content from the Data page on Stoneshard Wiki (e.g., Weapon Data) and paste it into the Data Text field.
 2. Enter the keywords you want to filter for into the Keywords field (separate multiple keywords with commas).
