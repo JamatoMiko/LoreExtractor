@@ -1,0 +1,55 @@
+.center-container
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+body
+{
+    background-color: #e2dfdf;
+}
+
+label
+{
+    color:black;
+    display: block;
+}
+
+textarea, input
+{
+    width: 80%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+button
+{
+    padding: 0.5em 0.5em;
+    font-size: 1em;
+}
+
+.copy-button {
+    background-color: #f0f0f0;
+    border: none;
+    color: #333;
+    padding: 4px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #dcdcdc;
+}
+
+.copy-button:active {
+    background-color: #bfbfbf;
+}
+
+
+ul
+{
+    padding-left: 1em;
+}
