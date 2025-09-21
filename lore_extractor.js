@@ -34,7 +34,7 @@ class LoreExtractor
         keywords.forEach((k, i) => {
             keywordColors[k] = colors[i % colors.length]; //キーワードに色を割り当て
         });
-        const lines = dataText.split(/[;§\|]/).map(l => l.trim());//データテキストを";"と"|"と"§"ごとに分割
+        const lines = dataText.split(/[;§\|{]/).map(l => l.trim());//データテキストを";"と"|"と"§"と"{"ごとに分割
         const results = lines.filter(line => keywords.some(keyword => line.toLowerCase().includes(keyword)));
         const uniqueResults = [...new Set(results)];
 
