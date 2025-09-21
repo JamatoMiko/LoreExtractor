@@ -1,4 +1,4 @@
-jamatomiko.github.io/LoreExtractor
+[jamatomiko.github.io/LoreExtractor](https://jamatomiko.github.io/LoreExtractor/)
 
 # How to Use
 1. Copy the content from the Data page on Stoneshard Wiki (e.g., Weapon Data) and paste it into the Data Text field.
